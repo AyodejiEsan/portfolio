@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+  }
+
+/* mobile responsiveness */
+/* Responsive Design */
+/* @media (max-width: 768px) {
+    .navbar .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-section p {
+        text-align: center;
+        padding: 0 20px;
+    }
+} */
+/* Enable smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Style for active link */
+.navbar a.active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+/* styling nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 1px solid white; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1001;
+    transition: 3s ease-in-out;
+    background-color: orangered;
+    height: 45px;
+    /* box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0.199); */
+    /* background-color: whitesmoke; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 100%;
+    max-width: 100%;
+}
+
+/* nav-scrolled{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color: black;
+}
+nav-scrolled a{
+    color: orangered;
+} */
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 10px;
+    color: white;
+}
+.row{
+    margin-right: 35px;
+    /* margin-top: 3px; */
+}
+.row,a{
+    padding: 14px;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.container{
+   background-image: url(./imgg.png); 
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* height: 700px;
+   width: 100%;  */
+   /* background-color: green; */
+}
+.second{
+    align-items: center;
+    text-align: center;
+    padding-top: 200px;
+}
+.pro p{
+    text-align: center;
+    padding-top: 10px;
+}
+.second, h1{
+    font-size: 60px;
+    font-weight: 400px;
+    /* padding-top: 60px; */
+    color: white;
+    padding-bottom: 25px;
+}
+h3{
+    color: white;
+    font-weight: normal;
+    font-size: 20px;
+
+}
+.short{
+    border: none;
+    border-top: 3px solid orangered;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+/* styling the button */
+.styled{
+    border-radius: 25px;
+    background-color: orangered;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    margin-bottom: 70px;
+}
+.styled:hover{
+    background-color: black;
+    color: orangered;
+}
+
+/* second section that contains the project */
+.sec{
+    background-color: rgba(219, 63, 35, 0.575);
+    height: 350px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.sec p{
+    text-align: center;
+    padding: 0 20px;
+}
+/* styling the text in about us */
+.im{
+    text-align: center;
+    padding-top: 60px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+/* /* Base Styles for Images and Containers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+ */
+
+/* styling the lines */
+.shorter{
+    border: none;
+    border-top: 3px solid orangered;
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+.im p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* projects */
+.pro h2{
+    text-align: center;
+    padding-top: 30px;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    /* width: 350px;
+    height: 250px; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    /* margin-right: 50px; */
+    /* margin: 20px; */
+    cursor: pointer;
+    transition: transform 0.2s;
+    border: 2.5px solid orangered;
+    /* border-color: orangered; */
+}
+/* hover */
+.image img:hover{
+    transform: scale(1.05);
+}
+
+.image{
+    display: flex;
+    /* align-items: center; */
+    /* margin-left: 75px; */
+}
+
+/*  */
+/* .one{
+    /* text-align: center; */
+    /* padding-left: 40px; */
+/* }  */
+
+/* contact form */
+/* Contact Section Styling */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    color: orangered;
+}
+
+#contactInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#contactInfo p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+#contactInfo p strong {
+    color: #555;
+}
+
+/* footer */
+.foot{
+    background-color: orangered;
+    height: 40px;
+}
+
+
+
+/* mobile responsiveness */
+/* For Tablets - screens 768px or smaller */
+@media (max-width: 768px) {
+    .navbar, .content, .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .navbar {
+        font-size: 0.9em;
+    }
+}
+
+/* For Mobile Phones - screens 480px or smaller */
+@media (max-width: 480px) {
+    .navbar, .content, .footer {
+        font-size: 0.8em;
+        padding: 10px;
+    }
+
+    .header {
+        font-size: 1.2em;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .card {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+/* font mobile responsiveness */
+/* Responsive Font Sizes */
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+
+/* Adjust images for tablets */
+@media (max-width: 768px) {
+    .image-container img {
+        width: 100%; /* Make the image container full-width */
+        height: auto;
+    }
+}
+
+/* Adjust images for mobile */
+@media (max-width: 480px) {
+    .image-container img {
+        width: 100%; /* Ensure image scales fully for mobile */
+        height: auto;
+    }
+}
